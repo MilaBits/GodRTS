@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodRTS", "GodRTS.csproj", "{4D1B82B1-357D-8C98-29B3-748377754902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodRTS.Editor", "GodRTS.Editor.csproj", "{32ABF936-452D-F9D0-B2A9-91AB4C24532A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1B82B1-357D-8C98-29B3-748377754902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1B82B1-357D-8C98-29B3-748377754902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1B82B1-357D-8C98-29B3-748377754902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1B82B1-357D-8C98-29B3-748377754902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ABF936-452D-F9D0-B2A9-91AB4C24532A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ABF936-452D-F9D0-B2A9-91AB4C24532A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ABF936-452D-F9D0-B2A9-91AB4C24532A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ABF936-452D-F9D0-B2A9-91AB4C24532A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
