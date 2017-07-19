@@ -127,6 +127,8 @@
     <Compile Include="Assets\RTS_Camera\Demo\TargetSelector.cs" />
     <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GodPlayerController.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
