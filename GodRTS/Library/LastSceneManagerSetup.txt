@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/TestingTerrain.unity
+- path: Assets/Scenes/Greek.unity
   isLoaded: 1
   isActive: 1
