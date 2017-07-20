@@ -129,6 +129,15 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\GodPlayerController.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Coins.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Faith.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Food.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Metal.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Ore.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Population.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Stone.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Wood.cs" />
+    <Compile Include="Assets\Scripts\ResourceScripts\Worshipper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
