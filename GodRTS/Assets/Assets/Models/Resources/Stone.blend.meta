@@ -1,32 +1,15 @@
 fileFormatVersion: 2
-guid: d732cded9b58d7446b86bbfe3bcc7a75
-timeCreated: 1500510756
+guid: 1b148a19a54277b449949c64c70819d8
+timeCreated: 1500540160
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Circle
-    100002: Circle_001
-    100004: Cylinder_000
-    100006: Cylinder_003
-    100008: //RootNode
-    400000: Circle
-    400002: Circle_001
-    400004: Cylinder_000
-    400006: Cylinder_003
-    400008: //RootNode
-    2300000: Circle
-    2300002: Circle_001
-    2300004: Cylinder_000
-    2300006: Cylinder_003
-    3300000: Circle
-    3300002: Circle_001
-    3300004: Cylinder_000
-    3300006: Cylinder_003
-    4300000: Circle_001
-    4300002: Cylinder_000
-    4300004: Cylinder_003
-    4300006: Circle
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Icosphere
     7400000: Default Take
     9500000: //RootNode
   materials:
