@@ -1,41 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Health : MonoBehaviour {
 
-    int healthPoints = 100;
-    int defencePoints = 0;
+    public int maxHealth;
+    public int currentHealth;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    public int maxArmor;
+    public int currentArmor;
 
-        if (defencePoints > 100)
-        {
-            defencePoints = 100;
+    public bool destroyed;
+
+    void start() {
+        currentHealth = maxHealth;
+        currentArmor = maxArmor;
+    }
+
+    public void TakeDamage(int damage) {
+        if (damage < 1) {
+            return;
         }
-
-        if (defencePoints <= 0)
-        {
-            defencePoints = 0;
-            Debug.Log("Object defences have been decimated.");
+        if (currentArmor > 0) {
+            if (currentArmor - damage > 0) {
+                currentArmor -= damage;
+            } else {
+                currentArmor = 0;
+            }
+        } else {
+            if (currentHealth - damage > 0) {
+                currentHealth -= damage;
+            } else {
+                currentHealth = 0;
+                destroyed = true;
+            }
         }
+    }
 
-        if (healthPoints > 100)
-        {
-            healthPoints = 100;
+    public void Repair(int points) {
+        if (points < 1) {
+            if (currentHealth + points >= maxHealth) {
+                currentHealth = maxHealth;
+            } else {
+                currentHealth += points;
+            }
         }
-
-        if(healthPoints <= 0)
-        {
-            healthPoints = 0;
-            Debug.Log("Object has been decimated.");
-        }
-        
-	}
+    }
 }
