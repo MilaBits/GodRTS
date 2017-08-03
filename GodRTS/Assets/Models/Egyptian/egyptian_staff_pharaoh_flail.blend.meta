@@ -9,19 +9,44 @@ ModelImporter:
     100002: Cylinder
     100004: //RootNode
     100006: Flail
+    100008: Cylinder_001
+    100010: Cylinder_002
+    100012: Flail_001
+    100014: Flail_002
+    100016: Flail_003
     400000: Crook
     400002: Cylinder
     400004: //RootNode
     400006: Flail
+    400008: Cylinder_001
+    400010: Cylinder_002
+    400012: Flail_001
+    400014: Flail_002
+    400016: Flail_003
     2300000: Crook
     2300002: Cylinder
     2300004: Flail
+    2300006: Cylinder_001
+    2300008: Cylinder_002
+    2300010: Flail_001
+    2300012: Flail_002
+    2300014: Flail_003
     3300000: Crook
     3300002: Cylinder
     3300004: Flail
+    3300006: Cylinder_001
+    3300008: Cylinder_002
+    3300010: Flail_001
+    3300012: Flail_002
+    3300014: Flail_003
     4300000: Cylinder
     4300002: Flail
     4300004: Crook
+    4300006: Cylinder_002
+    4300008: Cylinder_001
+    4300010: Flail_003
+    4300012: Flail_002
+    4300014: Flail_001
     7400000: Default Take
     9500000: //RootNode
   materials:

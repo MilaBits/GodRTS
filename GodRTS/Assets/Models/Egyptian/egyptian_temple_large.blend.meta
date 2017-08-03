@@ -8,15 +8,50 @@ ModelImporter:
     100000: Cube
     100002: Cube_001
     100004: //RootNode
+    100006: Cube_002
+    100008: Cube_003
+    100010: Cube_004
+    100012: Flagpoles
+    100014: Fortification
+    100016: Gate
+    100018: Obelisks
     400000: Cube
     400002: Cube_001
     400004: //RootNode
+    400006: Cube_002
+    400008: Cube_003
+    400010: Cube_004
+    400012: Flagpoles
+    400014: Fortification
+    400016: Gate
+    400018: Obelisks
     2300000: Cube
     2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_004
+    2300010: Flagpoles
+    2300012: Fortification
+    2300014: Gate
+    2300016: Obelisks
     3300000: Cube
     3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_004
+    3300010: Flagpoles
+    3300012: Fortification
+    3300014: Gate
+    3300016: Obelisks
     4300000: Cube_001
     4300002: Cube
+    4300004: Cube_002
+    4300006: Cube_003
+    4300008: Cube_004
+    4300010: Obelisks
+    4300012: Flagpoles
+    4300014: Gate
+    4300016: Fortification
     7400000: Default Take
     9500000: //RootNode
   materials:

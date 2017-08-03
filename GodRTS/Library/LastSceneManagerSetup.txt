@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Greek.unity
+- path: Assets/Scenes/Egyptian.unity
   isLoaded: 1
   isActive: 1
